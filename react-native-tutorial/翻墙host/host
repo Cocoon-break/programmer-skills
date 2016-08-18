@@ -4031,9 +4031,9 @@ static.ak.fbcdn.net    origincache-starfacebook-ai-01-05-ash3.facebook.com
 #Vimeo end
 
 #Github
-192.30.252.131    github.com
-192.30.252.131    www.github.com
-192.30.252.144    nodeload.github.com
+#192.30.252.131    github.com
+#192.30.252.131    www.github.com
+#192.30.252.144    nodeload.github.com
 103.245.222.133    raw.github.com
 103.245.222.133    documentcloud.github.com
 192.30.252.141    gist.github.com
