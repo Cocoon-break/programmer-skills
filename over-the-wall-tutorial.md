@@ -16,4 +16,4 @@
 
 - 点击骷髅头，选择Show Edit window.弹出的新界面中左上角选择的“＋”->选择Local.文件命名为google.把[翻墙host文件](https://github.com/Cocoon-break/programmer-skills/blob/master/react-native-tutorial/%E7%BF%BB%E5%A2%99host/host)文件内容复制到这个文件中。 切换google和Original File.选择是否翻墙
 
-![screenShot](https://github.com/Cocoon-break/programmer-skills/tree/master/react-native-tutorial/screenShot/over-the-wall.png)
+![screenShot](https://github.com/Cocoon-break/programmer-skills/blob/master/react-native-tutorial/screenShot/over-the-wall.png)
