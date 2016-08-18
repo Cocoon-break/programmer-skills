@@ -48,9 +48,9 @@ React Native目前需要Xcode 7.0 或更高版本。你可以通过App Store或�
 
 ##Intelli IDEA配置sdk
 
-![idea-1](https://github.com/Cocoon-break/programmer-skills/blob/master/react-native/idea-1.png)
+![idea-1](https://github.com/Cocoon-break/programmer-skills/blob/master/react-native/screenShot/idea-1.png)
 
-![idea-1](https://github.com/Cocoon-break/programmer-skills/blob/master/react-native/idea-2.png)
+![idea-1](https://github.com/Cocoon-break/programmer-skills/blob/master/react-native/screenShot/idea-2.png)
 ##GenyMotion模拟器安装
 从这里[GenyMotion](http://genymotion.en.softonic.com/)下载android模拟器，下载完成之后选择需要的机型即可。
 
