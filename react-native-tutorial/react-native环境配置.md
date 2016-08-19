@@ -44,7 +44,7 @@ React Native目前需要Xcode 7.0 或更高版本。你可以通过App Store或�
 进入官网下载最新的jdk[http://www.oracle.com/technetwork/java/javase/downloads/index-jsp-138363.html](http://www.oracle.com/technetwork/java/javase/downloads/index-jsp-138363.html)
 ###Android sdk使用镜像安装
 具体请参考[sdk 安装](http://note.youdao.com/share/?id=0a481b0e70df80ba2b2888cb4280bf96&type=note#/)
->注意：打开sdk manager  下载android sdk的过程中会遇到无法下载的，这是由于我们下载的sdk是需要访问Google的 ，国内是无法访问的，这时候需要翻墙。从[这里](https://github.com/Cocoon-break/programmer-skills/tree/master/react-native%E6%95%99%E7%A8%8B/%E7%BF%BB%E5%A2%99host)下载host文件，替换本地的host的文件。然后通过sdk manager选择sdk下载。
+>注意：打开sdk manager  下载android sdk的过程中会遇到无法下载的，这是由于我们下载的sdk是需要访问Google的 ，国内是无法访问的，这时候需要[翻墙](https://github.com/Cocoon-break/programmer-skills/blob/master/over-the-wall-tutorial.md)。从[这里](https://github.com/Cocoon-break/programmer-skills/tree/master/react-native%E6%95%99%E7%A8%8B/%E7%BF%BB%E5%A2%99host)下载host文件，替换本地的host的文件。然后通过sdk manager选择sdk下载。
 
 ##Intelli IDEA配置sdk
 
