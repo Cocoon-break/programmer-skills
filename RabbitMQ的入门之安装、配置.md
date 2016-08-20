@@ -66,12 +66,13 @@ RabbitMQ支持一些管理工具，例如web页面。利用如下命令在window
  
     以root身份执行如下命令：  
 
-    `su -c 'rpm -Uvh http://download.fedoraproject.org/pub/epel/6/i386/epel-release-6-8.noarch.rpm' `
-`su -c 'yum install foo' `  
+    `su -c 'rpm -Uvh http://download.fedoraproject.org/pub/epel/6/i386/epel-release-6-8.noarch.rpm' `  
+    
+    `su -c 'yum install foo' `  
 
-`wget -O /etc/yum.repos.d/epel-erlang.repo http://repos.fedorapeople.org/repos/peter/erlang/epel-erlang.repo`  
+    `wget -O /etc/yum.repos.d/epel-erlang.repo http://repos.fedorapeople.org/repos/peter/erlang/epel-erlang.repo`  
 
-`yum install erlang`  
+    `yum install erlang`  
 
 注意：第三个命令需要epel的最新版。  
 
