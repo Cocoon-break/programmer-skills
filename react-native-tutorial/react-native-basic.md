@@ -82,3 +82,38 @@
 		
 **注：** [更多es5和es6写法差异对比](http://bbs.reactnative.cn/topic/15/react-react-native-%E7%9A%84es5-es6%E5%86%99%E6%B3%95%E5%AF%B9%E7%85%A7%E8%A1%A8)
 ## react 生命周期
+- **componentWillMount**
+	
+	componentWillMount会在render之前执行，并且只会被执行一次。在这个方法内仍然可以通过setState来更改state。
+	
+- **render**
+	
+	react 核心方法整个UI的显示都在这个方法内渲染。该方法只能返回一个元素，并且这个方法是必须写的。当**this.props**或者**this.state**发生改变时，该方法会执行。同时render是一个纯的function，也就是说这个方法内不能setState。
+	
+- **componentDidMount**
+
+	componentDidMount在render之后执行，可以在这个方法内进行异步的网络请求。同时在这个方法内已经可以通过this.refs.xxx来取得某个组件的实例。（refs在我的理解中相当于java对象的一个实例，可以通过这个实例来执行这个实例内的function）
+	
+- **componentWillReceiveProps**
+
+	componentWillReceiveProps在props改变的时候被调用，这个方法在最初的生命周期不会调用，只有在props发生改变的时候执行。
+	
+- **shouldComponentUpdate**
+
+	shouldComponentUpdate在state或者props发生改变时调用，前面说了在state和props改变时render方法会被执行，其实在这中间还有一个function会先执行，那就是shouldComponentUpdate，该方法的返回值为boolean型，当返回true时才会执行render方法，默认返回值为true
+	
+- **componentWillUpdate**
+
+	componentWillUpdate在更新之前调用，注意在这个方法内不能进行setState
+	
+- **componentDidUpdate**
+
+	componentDidUpdate在更新之后调用
+	
+- **componentWillUnmount**
+
+	componentWillUnmount 在组件卸载之前执行，要清除一些东西时这个方法内执行。如 timers
+	
+**更多react相关知识参考** [**官方文档**](https://facebook.github.io/react/docs/getting-started.html)
+  
+	
