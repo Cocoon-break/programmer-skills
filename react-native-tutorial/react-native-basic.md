@@ -115,5 +115,8 @@
 	componentWillUnmount 在组件卸载之前执行，要清除一些东西时这个方法内执行。如 timers
 	
 **更多react相关知识参考** [**官方文档**](https://facebook.github.io/react/docs/getting-started.html)
-  
+
+在这里推荐大家在开发react native的时候用es6语法，在react native 0.18之后已经全面支持es6了。
+
+推荐一本书 [js的函数式编程](https://www.gitbook.com/book/llh911001/mostly-adequate-guide-chinese/details)  
 	
