@@ -2,7 +2,7 @@
 
 ---
 
-一、相关准备
+### 一、相关准备
         1. 本例子使用Maven作为构建工具，请使用者自行安装Maven，相关Maven的教程会在之后补充，尽请期待。
         2. 在Maven的pom.xml中添加如下内容，导入rabbitMq和序列化的相关Jar包。
                 `<dependency>
@@ -16,7 +16,7 @@
                  <version>2.6</version>
                 </dependency>`
         3. 确保RabbitMQ已经安装完毕，便于测试。
-二、相关代码
+### 二、相关代码
         1、建立与RabbitMQ的基础连接
                 MQ的连接分为两个角色，producer和consumer。他们的连接可以抽象成一个类进行描述。
                 [BaseConnector](https://github.com/Cocoon-break/programmer-skills/blob/master/RabbitMQ/src/main/java/connector/BaseConnector.java)
