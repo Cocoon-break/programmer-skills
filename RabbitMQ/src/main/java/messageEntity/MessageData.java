@@ -8,8 +8,9 @@ import java.io.Serializable;
 public class MessageData implements Serializable {
 
     private static final long serialVersionUID = 3250977593758869279L;
-
+    //消息的传递通道。。可以这么理解。。。
     private String channel;
+    //消息的内容
     private String content;
 
     public String getContent() {
