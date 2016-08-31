@@ -113,7 +113,26 @@
 - **componentWillUnmount**
 
 	componentWillUnmount 在组件卸载之前执行，要清除一些东西时这个方法内执行。如 timers
-	
+
+**生命周期总结**
+
+|声明周期|调用次数|能否使用setState|
+|:------:|:--------:|:----------:|
+|defaultProps/getDefaultProps|1|否|
+|constructor/getInitialState|1|否|
+|componentWillMount|1|**是**|
+|render|>=1|否|
+|componentDidMount|1|**是**|
+|componentWillReceiveProps|>=0|**是**|
+|shouldComponentUpdate|>=0|否|
+|componentWillUpdate|>=0|否|
+|componentDidUpdate|>=0|否|
+|componentWillUnmount|1|否|
+
+**图解**
+
+![shot](http://upload-images.jianshu.io/upload_images/2428275-f08403a3ea1b80f4.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)	
+
 **更多react相关知识参考** [**官方文档**](https://facebook.github.io/react/docs/getting-started.html)
 
 在这里推荐大家在开发react native的时候用es6语法，在react native 0.18之后已经全面支持es6了。
