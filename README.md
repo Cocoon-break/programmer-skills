@@ -4,7 +4,7 @@
 
 - [翻墙教程](https://github.com/Cocoon-break/programmer-skills/blob/master/over-the-wall-tutorial.md)
 - [git教程](https://github.com/Cocoon-break/programmer-skills/blob/master/git%E7%AE%80%E6%98%93%E6%95%99%E7%A8%8B.md)
-- **react native 教程**
+- **react native 教程** [react-native指南](https://github.com/reactnativecn/react-native-guide)
 	- 作者开源的react-native库 [react-native-table-row](https://github.com/Cocoon-break/react-native-table-row)  [react-native-flutter](https://github.com/Cocoon-break/react-native-flutter)
 	- [react-native 环境搭建](https://github.com/Cocoon-break/programmer-skills/blob/master/react-native-tutorial/react-native%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE.md)
 	- [react-native ios android 打包](https://github.com/Cocoon-break/programmer-skills/blob/master/react-native-tutorial/react-native-android-ios-package.md)
