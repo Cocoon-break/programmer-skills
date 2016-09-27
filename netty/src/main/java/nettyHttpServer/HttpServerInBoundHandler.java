@@ -15,6 +15,7 @@ public class HttpServerInBoundHandler extends ChannelInboundHandlerAdapter {
 
     @Override
     public void channelRead(ChannelHandlerContext ctx, Object msg) throws Exception {
+        long start = System.nanoTime();
         if (msg instanceof HttpRequest) {
             request = (HttpRequest) msg;
             System.out.println("Uri:" + request.getUri());
@@ -37,9 +38,12 @@ public class HttpServerInBoundHandler extends ChannelInboundHandlerAdapter {
                 }
                 ctx.write(response);
                 ctx.flush();
-
-
         }
+        long end = System.nanoTime();
+
+        long resultTime=end-start;
+
+        System.out.println(resultTime);
     }
 
     @Override
