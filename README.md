@@ -10,6 +10,8 @@
 	- [react-native ios android 打包](https://github.com/Cocoon-break/programmer-skills/blob/master/react-native-tutorial/react-native-android-ios-package.md)
 	- [react-native 预备知识](https://github.com/Cocoon-break/programmer-skills/blob/master/react-native-tutorial/react-native-basic.md)
 	- [es6常用语法学习](https://github.com/Cocoon-break/programmer-skills/blob/master/react-native-tutorial/es6-basic-grammar.md)
+- **微信小程序开发**
+	- [开发工具破解及开发文档](https://github.com/gavinkwoe/weapp-ide-crack)
 - [**RabbitMQ的基础知识**]
 	- [RabbitMQ的入门之安装、配置](https://github.com/Cocoon-break/programmer-skills/blob/master/RabbitMQ%E7%9A%84%E5%85%A5%E9%97%A8%E4%B9%8B%E5%AE%89%E8%A3%85%E3%80%81%E9%85%8D%E7%BD%AE.md)
 	- [RabbitMQ的java操作](https://github.com/Cocoon-break/programmer-skills/tree/master/RabbitMQ)
