@@ -26,8 +26,11 @@ public class HttpServer {
                     .childHandler(new ChannelInitializer<SocketChannel>() {
                         @Override
                         protected void initChannel(SocketChannel socketChannel) throws Exception {
+                            //对response进行编码
                             socketChannel.pipeline().addLast(new HttpResponseEncoder());
+                            //对request进行解码
                             socketChannel.pipeline().addLast(new HttpRequestDecoder());
+                            //处理request并封装response的返回
                             socketChannel.pipeline().addLast(new HttpServerInBoundHandler());
                         }
                     }).option(ChannelOption.SO_BACKLOG, 128)
@@ -44,6 +47,7 @@ public class HttpServer {
 
     public static void main(String[] args) throws InterruptedException {
         HttpServer httpServer = new HttpServer();
+        //绑定端口，端口随意。。。但也别太随意。。。。
         httpServer.start(9999);
     }
 }
