@@ -8,8 +8,8 @@
 - [es6常用语法学习](https://github.com/Cocoon-break/programmer-skills/blob/master/react-native-tutorial/es6-basic-grammar.md)
 - [react-native 预备知识](https://github.com/Cocoon-break/programmer-skills/blob/master/react-native-tutorial/react-native-basic.md)
 - 个人开源库
-  - [react-native-table-row](https://github.com/Cocoon-break/react-native-table-row) 表格布局的简易封装
-  - [react-native-flutter](https://github.com/Cocoon-break/react-native-flutter) 浮动的条
+  - [react-native-table-row](https://github.com/Cocoon-break/react-native-table-row) 
+  - [react-native-flutter](https://github.com/Cocoon-break/react-native-flutter) 
 - [react-native开源库快速查找](https://js.coach/react-native)
 - [react-native 环境搭建](https://github.com/Cocoon-break/programmer-skills/blob/master/react-native-tutorial/react-native%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE.md)
 - [react native 启动白屏解决办法](https://github.com/Cocoon-break/programmer-skills/blob/master/react-native-tutorial/react-native-splash-white.md)
@@ -37,6 +37,6 @@
 
 ## 其他技巧
 
-- [翻墙教程](https://github.com/Cocoon-break/programmer-skills/blob/master/over-the-wall-tutorial.md) 个人认为买一个VPN比较好，VPN比较稳定，当然使用这个免费也行
+- [翻墙教程](https://github.com/Cocoon-break/programmer-skills/blob/master/over-the-wall-tutorial.md) 
 - [git教程](https://github.com/Cocoon-break/programmer-skills/blob/master/git%E7%AE%80%E6%98%93%E6%95%99%E7%A8%8B.md)
-- [各种常用快捷键]((https://github.com/Cocoon-break/programmer-skills/blob/master/otherl/keymaps.md)) 包括vim中常用快捷键，item2中常用的快捷键
+- [各种常用快捷键](https://github.com/Cocoon-break/programmer-skills/blob/master/otherl/keymaps.md) (vim,iTerm2)
