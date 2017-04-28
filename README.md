@@ -39,4 +39,4 @@
 
 - [翻墙教程](https://github.com/Cocoon-break/programmer-skills/blob/master/over-the-wall-tutorial.md) 
 - [git教程](https://github.com/Cocoon-break/programmer-skills/blob/master/git%E7%AE%80%E6%98%93%E6%95%99%E7%A8%8B.md)
-- [各种常用快捷键](https://github.com/Cocoon-break/programmer-skills/blob/master/otherl/keymaps.md) (vim,iTerm2)
+- [各种常用快捷键](https://github.com/Cocoon-break/programmer-skills/blob/master/other/keymaps.md) (vim,iTerm2)
