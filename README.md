@@ -5,15 +5,15 @@
 ## react-native 系列
 
 -  [react-native学习资料相关](https://github.com/reactnativecn/react-native-guide)
-- [es6常用语法学习](https://github.com/Cocoon-break/programmer-skills/blob/master/react-native-tutorial/es6-basic-grammar.md)
-- [react-native 预备知识](https://github.com/Cocoon-break/programmer-skills/blob/master/react-native-tutorial/react-native-basic.md)
-- 个人开源库
+-  [es6常用语法学习](https://github.com/Cocoon-break/programmer-skills/blob/master/react-native-tutorial/es6-basic-grammar.md)
+-  [react-native 预备知识](https://github.com/Cocoon-break/programmer-skills/blob/master/react-native-tutorial/react-native-basic.md)
+-  个人开源库
   - [react-native-table-row](https://github.com/Cocoon-break/react-native-table-row) 
   - [react-native-flutter](https://github.com/Cocoon-break/react-native-flutter) 
-- [react-native开源库快速查找](https://js.coach/react-native)
-- [react-native 环境搭建](https://github.com/Cocoon-break/programmer-skills/blob/master/react-native-tutorial/react-native%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE.md)
-- [react native 启动白屏解决办法](https://github.com/Cocoon-break/programmer-skills/blob/master/react-native-tutorial/react-native-splash-white.md)
-- [react-native ios android 打包](https://github.com/Cocoon-break/programmer-skills/blob/master/react-native-tutorial/react-native-android-ios-package.md)
+-  [react-native开源库快速查找](https://js.coach/react-native)
+-  [react-native 环境搭建](https://github.com/Cocoon-break/programmer-skills/blob/master/react-native-tutorial/react-native%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE.md)
+-  [react native 启动白屏解决办法](https://github.com/Cocoon-break/programmer-skills/blob/master/react-native-tutorial/react-native-splash-white.md)
+-  [react-native ios android 打包](https://github.com/Cocoon-break/programmer-skills/blob/master/react-native-tutorial/react-native-android-ios-package.md)
 
 
 
@@ -41,4 +41,6 @@
 - [intelliJ IDEA注册码获取](http://idea.lanyus.com/)
 - [git教程](https://github.com/Cocoon-break/programmer-skills/blob/master/git%E7%AE%80%E6%98%93%E6%95%99%E7%A8%8B.md)
 - [各种常用快捷键](https://github.com/Cocoon-break/programmer-skills/blob/master/other/keymaps.md) (vim,iTerm2)
+- [google搜索技巧](https://github.com/Cocoon-break/programmer-skills/blob/master/other/google-search-skill.md) 
+
 
