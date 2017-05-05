@@ -42,5 +42,10 @@
 - [git教程](https://github.com/Cocoon-break/programmer-skills/blob/master/git%E7%AE%80%E6%98%93%E6%95%99%E7%A8%8B.md)
 - [各种常用快捷键](https://github.com/Cocoon-break/programmer-skills/blob/master/other/keymaps.md) (vim,iTerm2)
 - [google搜索技巧](https://github.com/Cocoon-break/programmer-skills/blob/master/other/google-search-skill.md) 
-
+- chrom 好用插件介绍————无法翻墙的话可以在插件网下载
+  - Infinity: 定义空的tab时各种快捷方式，还可以更改各种背景
+  - JSONView：获取json 数据时，对json进行格式化
+  - Postman：对接口进行测试时，可以模拟http请求
+  - 划词翻译：对网页中各种语言进行翻译
+  - Octotree：使用github时，在左侧可以使github仓库以文件夹的形式展开。读取仓库源码时不用一个一个文件夹打开了
 
