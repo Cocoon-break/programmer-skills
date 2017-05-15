@@ -8,8 +8,8 @@
 -  [es6常用语法学习](https://github.com/Cocoon-break/programmer-skills/blob/master/react-native-tutorial/es6-basic-grammar.md)
 -  [react-native 预备知识](https://github.com/Cocoon-break/programmer-skills/blob/master/react-native-tutorial/react-native-basic.md)
 -  个人开源库
-  - [react-native-table-row](https://github.com/Cocoon-break/react-native-table-row) 
-  - [react-native-flutter](https://github.com/Cocoon-break/react-native-flutter) 
+  -  [react-native-table-row](https://github.com/Cocoon-break/react-native-table-row) 
+  -  [react-native-flutter](https://github.com/Cocoon-break/react-native-flutter) 
 -  [react-native开源库快速查找](https://js.coach/react-native)
 -  [react-native 环境搭建](https://github.com/Cocoon-break/programmer-skills/blob/master/react-native-tutorial/react-native%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE.md)
 -  [react native 启动白屏解决办法](https://github.com/Cocoon-break/programmer-skills/blob/master/react-native-tutorial/react-native-splash-white.md)
@@ -34,6 +34,7 @@
 ## Linux 相关
 
 - [进程管理利器supervisor](https://github.com/Cocoon-break/programmer-skills/blob/master/Linux/supervisor.md)
+- [在redhat下打rpm包](https://github.com/Cocoon-break/programmer-skills/blob/master/Linux/pack-rpm.md)
 
 ## 其他技巧
 
