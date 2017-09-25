@@ -4,27 +4,11 @@ import com.alibaba.fastjson.JSONObject;
 import io.netty.channel.*;
 import io.netty.handler.codec.http.*;
 
-import java.io.File;
-
 /**
  * Created by jiang wei on 2017/2/13.
  */
 public class HttpRequestHandler extends SimpleChannelInboundHandler<FullHttpRequest> {
     private final String wsUri;
-    private static File INDEX;
-
-
-//    static {
-//        URL location = HttpRequestHandler.class.getProtectionDomain().getCodeSource().getLocation();
-//
-//        try {
-//            String path = location.toURI() + "WebsocketChatClient.html";
-//            path = !path.contains("file:") ? path : path.substring(5);
-//            INDEX = new File(path);
-//        } catch (URISyntaxException e) {
-//            e.printStackTrace();
-//        }
-//    }
 
     public HttpRequestHandler(String wsUri) {
         this.wsUri = wsUri;
@@ -34,14 +18,12 @@ public class HttpRequestHandler extends SimpleChannelInboundHandler<FullHttpRequ
     @Override
     protected void channelRead0(ChannelHandlerContext channelHandlerContext, FullHttpRequest fullHttpRequest) throws Exception {
         if (wsUri.equalsIgnoreCase(fullHttpRequest.uri())) {
-//            ConfigInit.getRedisConnection().set(fullHttpRequest.content().toString(CharsetUtil.UTF_8))
             channelHandlerContext.fireChannelRead(fullHttpRequest.retain());
         } else {
             if (HttpUtil.is100ContinueExpected(fullHttpRequest)) {
                 send100Continue(channelHandlerContext);
             }
 
-//            RandomAccessFile file = new RandomAccessFile(INDEX, "r");
             JSONObject jsonObject = new JSONObject();
             jsonObject.put("connect", Boolean.TRUE);
 
@@ -75,4 +57,6 @@ public class HttpRequestHandler extends SimpleChannelInboundHandler<FullHttpRequ
         cause.printStackTrace();
         ctx.close();
     }
+
+
 }
